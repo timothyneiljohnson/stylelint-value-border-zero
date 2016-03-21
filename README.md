@@ -1,5 +1,7 @@
 # stylelint-value-border-zero
 
+[![Build Status](https://travis-ci.org/timothyneiljohnson/stylelint-value-border-zero.svg)](https://travis-ci.org/timothyneiljohnson/stylelint-value-border-zero)
+
 A [stylelint](https://github.com/stylelint/stylelint) custom rule to set a convention of `border: 0` or `border: none`.
 
 This rule will cause stylelint to warn you whenever an the preferred convention is not used.
