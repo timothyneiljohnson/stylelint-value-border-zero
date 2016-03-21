@@ -1,6 +1,6 @@
 {
   "name": "stylelint-value-border-zero",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A stylelint custom rule to enforce a convention of 'border: 0' or 'border: none'",
   "main": "index.js",
   "scripts": {
