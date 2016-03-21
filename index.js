@@ -3,7 +3,7 @@ const stylelint = require('stylelint');
 const ruleName = 'value-border-zero';
 const messages = stylelint.utils.ruleMessages(ruleName, {
   rejected: (convention, opposite) =>
-    `'border: ${convention}' is preferred over 'border: ${opposite}'`
+    `'border: ${convention}' is preferred over 'border: ${opposite}'.`
 });
 
 module.exports = stylelint.createPlugin(ruleName, (options) =>
