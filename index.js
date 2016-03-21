@@ -15,7 +15,7 @@ module.exports = stylelint.createPlugin(ruleName, (options) =>
       actual: options,
       possible: {
         convention: ['0', 'none']
-      },
+      }
     });
     const opposite = options.convention === '0' ? 'none' : '0';
     const checkForBorderMistake = (decl) => {
