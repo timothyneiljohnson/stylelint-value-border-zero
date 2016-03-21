@@ -53,7 +53,7 @@ border-left
 
 ## Usage
 
-Add `"stylelint-value-border-zero"` to your stylelint config `plugins` array, then add `value-border-zero` to your rules, set to `true`.
+Add `"stylelint-value-border-zero"` to your stylelint config `plugins` array, then add `value-border-zero` to your rules, setting the `convention` option to `"0"` or `"none"`.
 
 As follows:
 
@@ -63,7 +63,9 @@ As follows:
     "stylelint-value-border-zero"
   ],
   "rules": {
-    "value-border-zero": true
+    "value-border-zero": {
+      "convention": "0" // Or "none"
+    }
   }
 };
 ```
