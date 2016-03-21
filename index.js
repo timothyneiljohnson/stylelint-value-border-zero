@@ -5,9 +5,6 @@ const messages = stylelint.utils.ruleMessages(ruleName, {
   rejected: (convention, opposite) =>
     `'border: ${convention}' is preferred over 'border: ${opposite}'`
 });
-const arrayContains = (searchItem, array) => {
-  return (array.indexOf(searchItem) > -1);
-};
 
 module.exports = stylelint.createPlugin(ruleName, (options) =>
   (root, result) => {
