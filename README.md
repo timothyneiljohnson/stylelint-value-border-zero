@@ -9,7 +9,7 @@ This rule will cause stylelint to warn you whenever the preferred convention is 
 ## Installation
 
 ```
-npm install stylelint-unknown-property
+npm install stylelint-value-border-zero
 ```
 
 This plugin is compatible with v5.0.1+.
