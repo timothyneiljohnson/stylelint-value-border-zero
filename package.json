@@ -23,11 +23,11 @@
   },
   "homepage": "https://github.com/timothyneiljohnson/stylelint-value-border-zero#readme",
   "devDependencies": {
-    "tape": "^4.2.2"
+    "tape": "^4.2.2",
+    "stylelint-rule-tester": "^0.6.1"
   },
   "dependencies": {
     "object-assign": "^4.0.1",
-    "stylelint": ">=3.0.2",
-    "stylelint-rule-tester": "^0.6.1"
+    "stylelint": ">=3.0.2"
   }
 }
