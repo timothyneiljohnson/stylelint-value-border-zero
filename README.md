@@ -63,7 +63,7 @@ As follows:
     "stylelint-value-border-zero"
   ],
   "rules": {
-    "value-border-zero": {
+    "plugin/value-border-zero": {
       "convention": "0" // Or "none"
     }
   }
