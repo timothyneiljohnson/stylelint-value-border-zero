@@ -1,6 +1,6 @@
 const assign = require('object-assign');
 const stylelint = require('stylelint');
-const ruleName = 'value-border-zero';
+const ruleName = 'plugin/value-border-zero';
 const messages = stylelint.utils.ruleMessages(ruleName, {
   rejected: (convention, opposite) =>
     `'border: ${convention}' is preferred over 'border: ${opposite}'`
